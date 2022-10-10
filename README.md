@@ -12,6 +12,6 @@ __________________________________________
    Grafics/Tree5 - домашнее задание по библиотеке с черепахой в пайтоне.
 6) Grafics/Paporatnic.py - лист папоратника на библиотеке с черепахой.
 7) Grafics/EGE.py - Задание ЕГЭ выполненное библиотекой с черепахой в пайтоне.
-8) CodeHeminga.ipynb - Код Хемминга в Google Colab
+8) CodeHeminga.ipynb - Код Хемминга в Google Colab.
 9) https://openprocessing.org/user/342850/?view=sketches&o=2 - ссылка на опенпроцессинг.
 10)Программы на пайтоне/Python_CPlusPlus.py - Все знания на Python.
