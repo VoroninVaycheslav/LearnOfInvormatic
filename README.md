@@ -15,3 +15,4 @@ __________________________________________
 8) CodeHeminga.ipynb - Код Хемминга в Google Colab.
 9) https://openprocessing.org/user/342850/?view=sketches&o=2 - ссылка на опенпроцессинг.
 10) Программы на пайтоне/Python_CPlusPlus.py - Все знания на Python.
+11) Office program/Логика.xlsx - Математическая логика.
