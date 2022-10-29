@@ -25,6 +25,6 @@ __________________________________________
 15) https://codepen.io/VoroninVaycheslav - ссылка на CodePen.
 16) https://com2843.wordpress.com/ - ссылка на сайт WorldPress
 17) База Данных.md - база данных с тренажёр.
-18) Законы логики 15 формула приведения:
+18) Законы логики 15 формула приведения(Законы поглащения):
 $$A\wedge_{}^{}(A\vee_{}^{}B)=A$$
 ![image](https://user-images.githubusercontent.com/114893510/198812771-98e2a2c3-1be1-402a-bd21-1cd41a42e1d6.png)
