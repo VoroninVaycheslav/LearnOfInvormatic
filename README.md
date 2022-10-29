@@ -25,5 +25,6 @@ __________________________________________
 15) https://codepen.io/VoroninVaycheslav - ссылка на CodePen.
 16) https://com2843.wordpress.com/ - ссылка на сайт WorldPress
 17) База Данных.md - база данных с тренажёр.
+18) Законы логики 15 формула приведения:
 $$A\bigwedge_{}^{}(A\bigvee_{}^{}B)=A$$
 ![image](https://user-images.githubusercontent.com/114893510/198812589-9339a33b-9b73-4e2a-b2cf-1563a716372f.png)
