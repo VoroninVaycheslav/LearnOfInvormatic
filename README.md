@@ -25,4 +25,4 @@ __________________________________________
 15) https://codepen.io/VoroninVaycheslav - ссылка на CodePen.
 16) https://com2843.wordpress.com/ - ссылка на сайт WorldPress
 17) База Данных.md - база данных с тренажёр.
-19)$$A\bigwedge_{}^{}(A\bigvee_{}^{}B)=A$$
+$$A\bigwedge_{}^{}(A\bigvee_{}^{}B)=A$$.
