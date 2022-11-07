@@ -30,3 +30,4 @@ $$A\wedge_{}^{}(A\vee_{}^{}B)=A$$
 ![image](https://user-images.githubusercontent.com/114893510/198812771-98e2a2c3-1be1-402a-bd21-1cd41a42e1d6.png)
 19) какая-то формула:
 $$E_0^{2} = \sqrt[2]{\frac{F a_0^{2}}{(x-1)\cdot x } }+a_1^{2}+\beta_1^{2}$$
+E_0^{2} = \sqrt[2]{\frac{F a_0^{2}}{(x-1)\cdot x } }+a_1^{2}+\beta_1^{2}
