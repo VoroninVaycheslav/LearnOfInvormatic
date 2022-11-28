@@ -32,3 +32,7 @@ $$A\wedge_{}^{}(A\vee_{}^{}B)=A$$
 $$\bar{E_0^{2}} = \sqrt[2]{\frac{F a_0^{2}}{(x-1)\cdot x } }+a_1^{2}+\beta_1^{2}$$
 ![image](https://user-images.githubusercontent.com/114893510/201590509-3216c935-fe23-4b93-aaed-dc76e0ea9ec0.png)
 20) Мотивация/creatVideo.py - создание видео с мотивацией
+21) Жесткий смайлик
+
+![image](https://user-images.githubusercontent.com/114893510/204203871-b6e1cb38-a5df-40b3-8a41-4d02ecb2fc61.png)
+
