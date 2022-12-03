@@ -37,9 +37,12 @@ $$\bar{E_0^{2}} = \sqrt[2]{\frac{F a_0^{2}}{(x-1)\cdot x } }+a_1^{2}+\beta_1^{2}
 ![image](https://user-images.githubusercontent.com/114893510/204203871-b6e1cb38-a5df-40b3-8a41-4d02ecb2fc61.png)
 22)Тест.cpp - Тест на знанию языка
 23) Мой жизненный цикл:
-flowchart LR
 
-'''mermaid A[Hard] -->|Text| B(Round)
+'''mermaid 
+
+flowchart LR
+A[Hard] -->|Text| B(Round)
 B --> C{Decision}
 C -->|One| D[Result 1]
-C -->|Two| E[Result 2]'''
+C -->|Two| E[Result 2]
+'''
