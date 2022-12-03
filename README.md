@@ -40,8 +40,8 @@ $$\bar{E_0^{2}} = \sqrt[2]{\frac{F a_0^{2}}{(x-1)\cdot x } }+a_1^{2}+\beta_1^{2}
 
 ```mermaid
 flowchart LR
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
+A[10] -->|аттестация| B(11)
+B --> C{аттестация}
 C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
 ```
