@@ -1,16 +1,7 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <iostream>
 
 using namespace std;
-
-int main()
+void test()
 {
     cout << "Жесткий тест на знание С++, если ты даун, то у тебя будут проблемы)"<<endl;
     cout << "Итак дружище мы начнкем!"<<endl;
@@ -73,5 +64,24 @@ int main()
         }
     }
     cout<<"Итак ваш балл: "<<ball<<"/10";
+}
+int main()
+{
+    test();
+    while(true)
+    {
+        string a;
+        cout<<"Еще раз? Да, Нет?";
+        cin>>a;
+        if(a == "Да")
+        {
+            test();
+        }
+        else
+        {
+            break;
+        }
+    }
+
     return 0;
 }
