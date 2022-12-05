@@ -49,3 +49,4 @@ C --> E[Девочка]
 E --> |Плохо|I[ХЗ]
 E--> |Хорошо|K[ВУЗ]
 ```
+###Проект сделаннай нашей командой в основном делал Тимур(VseSdelalTimur.py)[(https://github.com/VoroninVaycheslav/LearnOfInvormatic/blob/main/VseSdelalTimur.py)]
