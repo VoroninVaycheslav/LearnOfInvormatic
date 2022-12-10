@@ -52,11 +52,7 @@ def Suf(_gen):
         return random.choice(sufW)
    
 def Start():    
-    if flag == False:
-        qq = input("Вы хотите посмотреть авторов? Если да, напишите да, если нет, нажмите Enter: ")
-        flag = True
-        if qq == "да":
-           authors()
+        
     while True:
         gg = input("если вы хотите выйти напишите exit, если нет, то нажмите Enter: ")
         if gg == "exit":
@@ -66,8 +62,11 @@ def Start():
         
         print("Введите свой гендер (муж, жен): ")
         gen = input()
-        res = mainP(name).lower() + Suf(gen)+ random.choice(pers)
+        res = random.choice(pers) + mainP(name).lower() + Suf(gen)
         print(res.title())
-    
+
+qq = input("Вы хотите посмотреть авторов? Если да, напишите да, если нет, нажмите Enter: ")
+if qq == "да":
+    authors()
 Start()
 
