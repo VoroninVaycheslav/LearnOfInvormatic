@@ -36,7 +36,7 @@ $$\bar{E_0^{2}} = \sqrt[2]{\frac{F a_0^{2}}{(x-1)\cdot x } }+a_1^{2}+\beta_1^{2}
 
 ![image](https://user-images.githubusercontent.com/114893510/204203871-b6e1cb38-a5df-40b3-8a41-4d02ecb2fc61.png)
 ![image](https://user-images.githubusercontent.com/114893510/206829473-9b814afd-062e-4ec2-9e07-e417de76c067.png)
-![image](https://user-images.githubusercontent.com/114893510/206829527-a42fc473-5607-4293-b4dc-a888e096e4f6.png)
+
 
 22)Тест.cpp - Тест на знанию языка
 23)VoroninSite.zip - проект на Flask
