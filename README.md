@@ -53,4 +53,12 @@ C --> E[Девочка]
 E --> |Плохо|I[ХЗ]
 E--> |Хорошо|K[ВУЗ]
 ```
-###Проект сделаннай нашей командой в основном делал Тимур(VseSdelalTimur.py)[(https://github.com/VoroninVaycheslav/LearnOfInvormatic/blob/main/VseSdelalTimur.py)]
+###Проект сделаннай нашей командой в основном делал Тимур(VseSdelalTimur.py)
+| Plugin | README |
+| ------ | ------ |
+| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| GitHub | [plugins/github/README.md][PlGh] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| Medium | [plugins/medium/README.md][PlMe] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
