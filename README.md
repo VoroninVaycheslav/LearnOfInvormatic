@@ -53,12 +53,27 @@ C --> E[Девочка]
 E --> |Плохо|I[ХЗ]
 E--> |Хорошо|K[ВУЗ]
 ```
-###Проект сделаннай нашей командой в основном делал Тимур(VseSdelalTimur.py)
-| Plugin | README |
+25) Проект сделаннай по генерации имен (VseSdelalTimur.py)
+| Номер задачи | её готовность |
 | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| 1 | [plugins/dropbox/README.md][PlDb] |
+| 2 | [plugins/github/README.md][PlGh] |
+| 3 | [plugins/googledrive/README.md][PlGd] |
+| 4 | [plugins/onedrive/README.md][PlOd] |
+| 5 | [plugins/medium/README.md][PlMe] |
+| 6| [plugins/googleanalytics/README.md][PlGa] |
+| 7 | [plugins/dropbox/README.md][PlDb] |
+| 8 | [plugins/github/README.md][PlGh] |
+| 9 | [plugins/googledrive/README.md][PlGd] |
+| 10 | [plugins/onedrive/README.md][PlOd] |
+| 11 | [plugins/medium/README.md][PlMe] |
+| 12 | [plugins/googleanalytics/README.md][PlGa] |
+| 13 | [plugins/onedrive/README.md][PlOd] |
+| 14 | [plugins/medium/README.md][PlMe] |
+| 15 | [plugins/googleanalytics/README.md][PlGa] |
+| 16 | [plugins/onedrive/README.md][PlOd] |
+| 17 | [plugins/medium/README.md][PlMe] |
+| 18 | [plugins/googleanalytics/README.md][PlGa] |
+| 19 | [plugins/onedrive/README.md][PlOd] |
+| 20 | [plugins/medium/README.md][PlMe] |
+| 21 | [plugins/googleanalytics/README.md][PlGa] |
