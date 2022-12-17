@@ -57,24 +57,24 @@ E--> |Хорошо|K[ВУЗ]
 
 | Номер задачи | её готовность |
 | ------ | ------ |
-| 1 | [plugins/dropbox/README.md][PlDb] |
-| 2 | [plugins/github/README.md][PlGh] |
-| 3 | [plugins/googledrive/README.md][PlGd] |
-| 4 | [plugins/onedrive/README.md][PlOd] |
-| 5 | [plugins/medium/README.md][PlMe] |
-| 6| [plugins/googleanalytics/README.md][PlGa] |
-| 7 | [plugins/dropbox/README.md][PlDb] |
-| 8 | [plugins/github/README.md][PlGh] |
-| 9 | [plugins/googledrive/README.md][PlGd] |
-| 10 | [plugins/onedrive/README.md][PlOd] |
-| 11 | [plugins/medium/README.md][PlMe] |
-| 12 | [plugins/googleanalytics/README.md][PlGa] |
-| 13 | [plugins/onedrive/README.md][PlOd] |
-| 14 | [plugins/medium/README.md][PlMe] |
-| 15 | [plugins/googleanalytics/README.md][PlGa] |
-| 16 | [plugins/onedrive/README.md][PlOd] |
-| 17 | [plugins/medium/README.md][PlMe] |
-| 18 | [plugins/googleanalytics/README.md][PlGa] |
-| 19 | [plugins/onedrive/README.md][PlOd] |
-| 20 | [plugins/medium/README.md][PlMe] |
-| 21 | [plugins/googleanalytics/README.md][PlGa] |
+| 1 | [- |
+| 2 | [- |
+| 3 | [- |
+| 4 | [- |
+| 5 | [- |
+| 6| [- |
+| 7 |- |
+| 8 |- |
+| 9 |- |
+| 10 |- |
+| 11 |- |
+| 12 |- |
+| 13 |- |
+| 14 |- |
+| 15 |- |
+| 16 |- |
+| 17 |- |
+| 18 |- |
+| 19 |- |
+| 20 | [- |
+| 21 | [- |
