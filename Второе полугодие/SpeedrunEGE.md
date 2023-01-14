@@ -20,7 +20,7 @@
 
 ```python
 for N in range(516):
-    b = f'{N:b}' // bin(N)
+    b = f'{N:b}' # bin(N)
     if N%2 == 0:
         b+='10'
     else:
