@@ -76,8 +76,28 @@ for n in nums:
             k+=1
 print(k)
 ```
-![image](https://user-images.githubusercontent.com/114893510/208361587-229888fa-e09d-4d3b-b7c1-3e4a388dd44e.png)
 
+![image](https://user-images.githubusercontent.com/114893510/208361587-229888fa-e09d-4d3b-b7c1-3e4a388dd44e.png)
+Задание 14:
+```python
+
+a='0123456789abcde'
+for x in a:
+    f=int(f'123{x}5',15)+int(f'1{x}233',15)
+    if  f%14 ==0:
+        print(f//14)
+        break
+
+```
+Задание 15:
+```python
+
+for a in range(1,1000):
+    if all(((x%2==0) <= (x%3!=0)) or (x+a>=100) for x in range(1,100)):
+        print(a)
+        break
+
+```
 
 19 Заданеи:
 
