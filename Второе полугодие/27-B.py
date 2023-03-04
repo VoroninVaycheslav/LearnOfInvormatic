@@ -20,12 +20,13 @@ while True:
             else:
                 ind=x
             kost=kost+d[x]*ind
+        
         if mini > kost:
             mini = kost
             index = i
-    if interval == 1: 
-        exit()
-    print(nach+1,kon+1,mini, index)
+    if interval == 1 and mini == kost: 
+            exit()
+    print(nach+1,kon+1,mini, index+1)
     
     nach = index - interval
     kon  = index + interval
