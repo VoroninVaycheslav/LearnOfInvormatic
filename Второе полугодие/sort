@@ -1,0 +1,15 @@
+from random import randint
+ 
+count = 10
+arr = []
+for i in range(count):
+    arr.append(randint(1, 99))
+print(arr)
+ 
+ 
+for i in range(count-1):
+    for j in range(count-i-1):
+        if arr[j] > arr[j+1]:
+            arr[j], arr[j+1] = arr[j+1], arr[j]
+ 
+print(arr)
