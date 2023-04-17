@@ -1,6 +1,12 @@
 import PySimpleGUI as sg
-
-sg.theme('LightBlue2')  # Set the theme
+import webbrowser
+sg.theme('LightBlue2')
+urls = {
+    'Google':'https://www.google.com',
+    'Amazon':'https://www.amazon.com/',
+    'NASA'  :'https://www.nasa.gov/',
+    'Python':'https://www.python.org/',
+        }  # Set the theme
 s=['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19, 20, 21','22','23','24','25','26','27b']
 a=[
 '''
@@ -230,7 +236,7 @@ layout = [[sg.Combo(s, default_value=s[0], s=(15,22), enable_events=True, readon
            sg.Button('urls', font=('Arial', 12), button_color=('white', '#4CAF50'), key='button')]]
 
 # Create the window
-window = sg.Window('ЕГЭ архив by Silkov Alexandr', layout)
+window = sg.Window('ЕГЭ архив by Слава Воронин', layout)
 
 # Event loop
 while True:
@@ -245,17 +251,29 @@ while True:
         choice=a[s.index(values['Combo'])]
         window['outputt'].update(choice)
     if event == 'button':
-        urls = {
+       urls = {
     'Google':'https://www.google.com',
     'Amazon':'https://www.amazon.com/',
     'NASA'  :'https://www.nasa.gov/',
     'Python':'https://www.python.org/',
-        }
-        font = ('Courier New', 16, 'underline')
-        items = sorted(urls.keys())
-        url_layout = [[sg.Text(txt, tooltip=urls[txt], enable_events=True, font=font, key=f'URL {urls[txt]}')] for txt in items]
-        url_window = sg.Window('Use important urls!', url_layout, size=(250, 150), finalize=True)
+}
 
+    items = sorted(urls.keys())
 
+    sg.theme("DarkBlue")
+    font = ('Courier New', 16, 'underline')
+
+    layout = [[sg.Text(txt, tooltip=urls[txt], enable_events=True, font=font,
+    key=f'URL {urls[txt]}')] for txt in items]
+    window = sg.Window('Hyperlink', layout, size=(250, 150), finalize=True)
+
+    while True:
+        event, values = window.read()
+        if event == sg.WINDOW_CLOSED:
+            break
+        elif event.startswith("URL "):
+            url = event.split(' ')[1]
+            webbrowser.open(url)
+        print(event, values)
 # Close the window
 window.close()
