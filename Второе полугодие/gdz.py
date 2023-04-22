@@ -236,7 +236,7 @@ layout = [[sg.Combo(s, default_value=s[0], s=(15,22), enable_events=True, readon
            sg.Button('urls', font=('Arial', 12), button_color=('white', '#4CAF50'), key='button')]]
 
 # Create the window
-window = sg.Window('ЕГЭ архив by Слава Воронин', layout)
+window = sg.Window('ЕГЭ архив by Вайс Максим', layout)
 
 # Event loop
 while True:
