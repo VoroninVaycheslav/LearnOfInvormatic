@@ -1,35 +1,20 @@
-a=[int(x) for x in open('27-B.txt')]  
-a.pop(0)
+a=[x for x in range(0,1000)]  
 ma=[]
 l=len(a)
 ser=len(a)//2 
-a=a+a
-interval = 50000
-index = 1000000
-mini = 1000000000000000
+interval = 50
+index = 0
+maxi = 0
 nach = 0
-kon = 1000000
+kon = 1000
 while True:
-    mini = 1000000000000000
-    for i in range(nach,kon-1,interval):
-        d=a[i:i+l]
-        kost=0
-        for x in range(len(d)):
-            if x>ser:
-                ind=l-x
-            else:
-                ind=x
-            kost=kost+d[x]*ind
-        
-        if mini > kost:
-            mini = kost
+    for i in range(nach,kon,interval):
+        if maxi < a[i]:
+            maxi = a[i]
             index = i
-    if interval == 1 and mini == kost: 
-            exit()
-    print(nach+1,kon+1,mini, index+1)
-    
     nach = index - interval
     kon  = index + interval
     interval = interval//10
     if interval == 0: 
         interval = 1
+    print(a[i])
